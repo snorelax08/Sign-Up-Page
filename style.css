@@ -560,13 +560,6 @@ body {
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'Mosafin';
-    src: url('fonts/mosafin.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
 /* Input and Button Base Styles */
 button,
 input {
@@ -660,7 +653,7 @@ input {
         /* Text color inside the input field */
     }
 
-    /* Optional: Placeholder Color */
+    /* Placeholder Color */
     .textbox input::placeholder {
         color: rgba(255, 255, 255, 0.5);
         /* Placeholder text color */
@@ -726,3 +719,20 @@ input {
     .signup p>a {
         color: rgba(255, 255, 255, 0.96);
     }
+    button a {
+        color: inherit; /* Inherit color from the button */
+        text-decoration: none; /* Remove underline */
+        display: block; /* Ensure the entire link is clickable */
+        width: 100%; /* Make the link take the full width of the button */
+        height: 100%; /* Make the link take the full height of the button */
+        text-align:left; /* Left the text inside the button */
+        line-height: 60px; /* Adjust line height to match the button height */
+        font-size: 18px;
+        font-weight: 400;
+    }
+    
+    /* Hover effect */
+    button a:hover {
+        color: inherit; /* Keep the color the same on hover */
+    }
+    
