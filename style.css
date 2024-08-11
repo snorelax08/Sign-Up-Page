@@ -653,7 +653,7 @@ input {
         /* Text color inside the input field */
     }
 
-    /* Placeholder Color */
+    /* Optional: Placeholder Color */
     .textbox input::placeholder {
         color: rgba(255, 255, 255, 0.5);
         /* Placeholder text color */
@@ -731,7 +731,7 @@ input {
         font-weight: 400;
     }
     
-    /* Hover effect */
+    /* Optional: Hover effect */
     button a:hover {
         color: inherit; /* Keep the color the same on hover */
     }
